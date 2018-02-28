@@ -3,8 +3,6 @@
 import argparse
 from scapy.all import *
 
-target = sys.argv[1]
-
 parser = argparse.ArgumentParser()
 parser.add_argument("target", help="target")
 parser.add_argument("--timeout", type=int, default=3, help="timeout for scapy sr1")
